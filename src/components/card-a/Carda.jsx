@@ -19,7 +19,7 @@ const Carda = () => {
                 <span className="carda-container_line"></span>
                 <h5 className="intro">{wdd}</h5>
                 <p className="brief">{para}</p>
-                {/* <button class="btn"><i></i>Download My CV</button> */}
+                <button className="btn"><i></i>Download My CV</button>
             </div>
         </>
     )
