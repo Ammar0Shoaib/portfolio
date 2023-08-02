@@ -1,7 +1,7 @@
 
 import './App.css';
 
-import { Herbanner,Tabbar } from './components';
+import { Herbanner,Tabbar,Carda } from './components';
 
 
 function App() {
@@ -9,6 +9,9 @@ function App() {
     <div className='App'>
     <Herbanner/>
     <Tabbar/>
+    <div className='card_a'>
+      <Carda/>
+    </div>
 
     
     </div>
