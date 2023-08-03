@@ -22,3 +22,11 @@ a{
   flex: 1 0 33.33%;
 
 }
+.card_container , .card_b{
+  flex: 1 0 33.33%;
+
+}
+.card_container , .card_c{
+  flex: 1 0 33.33%;
+
+}

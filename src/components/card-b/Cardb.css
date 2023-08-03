@@ -4,20 +4,20 @@ body {
   box-sizing: border-box;
 }
 
-.carda-container {
+.Cardb-container {
   display: flex;
   max-width: 100%;
   flex-direction: column;
 }
 
-.carda-container .wml {
+.Cardb-container .wml {
   font-size: 2.5em;
   font-weight: 300;
   margin-top: 2.3em;
   margin-left: 1.3em;
 }
 
-.carda-container .carda-container_line {
+.Cardb-container .Cardb-container_line {
   display: block;
   width: 70px;
   height: 3.5px;
@@ -25,7 +25,7 @@ body {
   margin-left: 3.5em;
 }
 
-.carda-container .intro {
+.Cardb-container .intro {
   width: 80%;
   font-size: 1.2em;
   color: #747779;
@@ -34,7 +34,7 @@ body {
 
 }
 
-.carda-container .brief {
+.Cardb-container .brief {
   width: 73%;
   font-size: 1.1em;
   color: #747779;
@@ -43,9 +43,9 @@ body {
   text-align: justify;
 }
 
-.carda-container .btn {
+.Cardb-container .btn {
   width: 35%;
-  margin-top: 1em;
+  margin-top: 3em;
   margin-left: 7em;
   display: inline-block;
   font-size: 1.1rem;
@@ -61,7 +61,7 @@ body {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-.carda-container .btn:hover {
+.Cardb-container .btn:hover {
   color: #fff;
   background-color: #f85c70;
   border-color: #f85c70;

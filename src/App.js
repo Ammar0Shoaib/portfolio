@@ -1,7 +1,7 @@
 
 import './App.css';
 
-import { Herbanner,Tabbar,Carda } from './components';
+import { Herbanner,Tabbar,Carda,Cardb,Cardc } from './components';
 
 
 function App() {
@@ -13,6 +13,12 @@ function App() {
     <section className='card_container'>
     <div className='card_a'>
       <Carda/>
+    </div>
+    <div className='card_b'>
+      <Cardb/>
+    </div>
+    <div className='card_c'>
+      <Cardc/>
     </div>
     </section>
 

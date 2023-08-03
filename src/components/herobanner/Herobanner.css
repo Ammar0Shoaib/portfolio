@@ -1,4 +1,4 @@
-* {
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -25,14 +25,14 @@
 .container .social-images {
   display: flex;
   width: 100%;
-  gap: 4em;
-  padding-left: 2em;
-  padding-top: 5em;
+  gap: 2em;
+  padding-left: 10em;
+  padding-top: 1.4em;
 }
 
 .container .social-images .facebook {
   display: flex;
-  height: 3em;
+  height: 2.5em;
 }
 
 .container .social-images .facebook .icon-button {
@@ -45,7 +45,7 @@
 
 .container .social-images .google {
   display: flex;
-  height: 3em;
+  height: 2.5em;
 }
 
 .container .social-images .google .icon-button {
@@ -58,7 +58,7 @@
 
 .container .social-images .instagram {
   display: flex;
-  height: 3em;
+  height: 2.5em;
 }
 
 .container .social-images .instagram .icon-button {
@@ -71,7 +71,7 @@
 
 .container .social-images .twitter {
   display: flex;
-  height: 3em;
+  height: 2.5em;
 }
 
 .container .social-images .twitter .icon-button {
@@ -82,9 +82,10 @@
 
 }
 
-.container .social-images .twitter .github {
+
+.container .social-images .github {
   display: flex;
-  height: 3em;
+  height: 2.5em;
 }
 
 .container .social-images .twitter .github .icon-button {
@@ -98,20 +99,19 @@
 .container .introduction p {
   color: white;
   font-size: 2.2em;
-  padding-top: 2.2em;
-  padding-left: 5em;
+  margin-left: 5em;
 }
 
 .container .introduction h1 {
   color: white;
   font-size: 4em;
-  padding-left: 2.5em;
+  margin-left: 2.5em;
 }
 
 .container .introduction h3 {
   color: white;
-  font-size: 1.2em;
-  padding-left: 12em;
+  font-size: 1.5em;
+  margin-left: 7em;
   font-weight: 100;
 }
 

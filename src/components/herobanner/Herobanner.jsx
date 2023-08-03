@@ -9,6 +9,13 @@ import twitter from './banner-images/twitter.png';
 import github from './banner-images/github.png';
 import imageUrl from './banner-images/printer.png';
 
+const  strname = 'Linux Mint' ;
+
+const strexpt1 = 'Frontend Designer';
+const strexpt2 = 'Developer';
+
+
+
 
 const Herobanner = () => {
     return (
@@ -42,8 +49,8 @@ const Herobanner = () => {
                 <section className='introduction'>
 
                     <p>Hello, I am </p>
-                    <h1>Ammar Shoaib</h1>
-                    <h3>Frontend Designer &nbsp;  &#10072; &nbsp; Developer</h3>
+                    <h1>{strname}</h1>
+                    <h3>{strexpt1} &nbsp;  &#10072; &nbsp; {strexpt2}</h3>
 
                     <div className="btncontainer">
                         <button className="button-with-image">
