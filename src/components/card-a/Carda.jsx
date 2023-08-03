@@ -7,7 +7,7 @@ let wml = ' Who am I ?';
 
 let wdd = 'A Web Designer / Developer Located In Our Lovely Earth';
 
-let para = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.sit amet, Qui deserunt consequatur fugit repellendusillo voluptas?';
+let para = 'Lorem ipsum dolor sit amet, consectetur otes yke manehij adipisicing elit.sit amet, Qui deserunt consequatur fugit repellendusillo voluptas?';
 
 
 
