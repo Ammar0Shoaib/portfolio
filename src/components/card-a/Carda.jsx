@@ -3,7 +3,7 @@ import React from 'react'
 import './Carda.css';
 
 
-let wml = ' Who am I ?';
+let wml = 'Who am I ?';
 
 let wdd = 'A Web Designer / Developer Located In Our Lovely Earth';
 

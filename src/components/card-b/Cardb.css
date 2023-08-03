@@ -4,6 +4,14 @@ body {
   box-sizing: border-box;
 }
 
+h4 {
+  display: inline-block;
+}
+
+p {
+  display: inline;
+}
+
 .Cardb-container {
   display: flex;
   max-width: 100%;
@@ -34,36 +42,48 @@ body {
 
 }
 
-.Cardb-container .brief {
-  width: 73%;
-  font-size: 1.1em;
-  color: #747779;
-  margin-top: 2em;
-  margin-left: 3em;
-  text-align: justify;
-}
-
-.Cardb-container .btn {
-  width: 35%;
-  margin-top: 3em;
-  margin-left: 7em;
+.sidebyside1,
+h4,
+p {
   display: inline-block;
-  font-size: 1.1rem;
-  font-weight: 400;
-  color: #212529;
-  text-align: center;
-  vertical-align: middle;
-  background-color: transparent;
-  border: 1px solid #f85c70;
-  padding: 0.375rem 0.75rem;
-  line-height: 1.5;
-  border-radius: 0.25rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-top: 2.1em;
+  margin-left: 0.8em;
+  color: #747779;
+
 }
 
-.Cardb-container .btn:hover {
-  color: #fff;
-  background-color: #f85c70;
-  border-color: #f85c70;
-  cursor: pointer;
+
+.sidebyside2,
+.sidebyside3,
+.sidebyside4,
+.sidebyside5 h4 {
+  color: #747779;
+}
+
+.sidebyside2,
+.sidebyside3,
+.sidebyside4,
+.sidebyside5,
+h4,
+p {
+  display: inline-block;
+  margin-top: 0.3em;
+  margin-left: 0.8em;
+  color: #747779;
+}
+
+.social-icons {
+
+  display: flex;
+  gap: 2em;
+  margin-left: 1;
+  margin-top: 2em;
+  margin-left: 2em;
+
+}
+
+.social-icons img {
+
+  width: 2em;
+  height: 2em;
 }
