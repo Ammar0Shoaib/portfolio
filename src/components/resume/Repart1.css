@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    /* main heading */
+    --main-heading-font-size: 1.2em;
+    
+    /* heading  */
+    --heading-font-size: 1.2em;
+    --heading-font-color: #F85C70;
+    
+    /* para styling  */
+    --para-font-color: #747779;
+    --para-font-size: 0.2em;
+    
+    /* Span styling */
+    --main-heading-span-margin-left: 4.2em;
+    --span-back-color: #F85C70;
+
+
+    /* Section Styling */
+    --section-heading-font-size: 1em;
+    --section-heading-font-color: #F85C70;
+    --section-ending-span-line-color: #DFDFDF;
+
+
+    /* border styling */
+    --box-border-color: #DFDFDF;
+
+
+}
+
+.repart1_main-container {
+    display: flex;
+    width: 25%;
+    flex-wrap: wrap;
+    position: relative;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.repart1_main-container,.repart1_main-sub-container{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.repart1_main-sub-container-para,
+.repart1_main-container-mainheading {
+    position: relative;
+    font-size: var(--main-heading-font-size);
+    font-weight: 400;
+    color: black;
+}
+
+
+
+.repart1_main-container-span, .repart1_main-container-mainheading-line-1 {
+    display: block;
+    width: 40px;
+    height: 1.5px;
+    background-color: var(--span-back-color);
+    margin-left: var(--main-heading-span-margin-left);
+}
+
+
+/* Section 1 Styling */
+
+
+
+.repart1_main-container-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.duration-text{
+    font-size: var(--section-heading-font-size) ;
+    color: var(--section-heading-font-color);
+    margin-left: 4em;
+}
+
+.designatioin-sign{
+    font-size: 0.8em;
+    margin-left: 5em;
+    color: var(--para-font-color);
+}
+
+.summery-para{
+    font-size: 0.8em;
+    --webkit-text-justify: auto;
+    margin-left: 5em;
+    color: var(--para-font-color);
+}
+
+.after-section-span-must{
+
+    display: block;
+    width: 200px;
+    height: 1px;
+    margin-top: 1em;
+    margin-left: 6em;
+    background-color: var(--section-ending-span-line-color);
+
+
+}
