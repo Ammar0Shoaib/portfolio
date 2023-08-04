@@ -49,7 +49,7 @@ const Herobanner = () => {
                 <section className='introduction'>
 
                     <p>Hello, I am </p>
-                    <h1>{strname}</h1>
+                    <h2>{strname}</h2>
                     <h3>{strexpt1} &nbsp;  &#10072; &nbsp; {strexpt2}</h3>
 
                     <div className="btncontainer">

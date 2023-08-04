@@ -92,8 +92,6 @@ body {
   border: none;
   background: none;
   cursor: pointer;
-  padding: 0;
-
 }
 
 .container .introduction p {
@@ -102,10 +100,10 @@ body {
   margin-left: 5em;
 }
 
-.container .introduction h1 {
+.container .introduction h2 {
   color: white;
-  font-size: 4em;
-  margin-left: 2.5em;
+  font-size: 3em;
+  margin-left: 3.5em;
 }
 
 .container .introduction h3 {
@@ -117,10 +115,8 @@ body {
 
 .container .introduction .btncontainer {
   display: flex;
-  flex: auto;
   margin-top: 2em;
   padding-left: 10em;
-  padding-top: 1em;
 }
 
 .container .introduction .btncontainer .button-with-image {
