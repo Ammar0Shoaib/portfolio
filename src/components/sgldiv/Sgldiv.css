@@ -1,0 +1,28 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.aftrcard{
+    display: flex;
+    margin-left: 8em;
+    margin-top: 2em;
+}
+
+
+.aftrcard,.para1{
+
+    font-size: 1.5em;
+    font-weight: 400;
+
+}
+
+
+.aftrcard,.my {
+    
+    color:#F85C70;
+    
+
+}

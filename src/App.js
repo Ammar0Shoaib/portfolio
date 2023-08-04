@@ -1,13 +1,13 @@
 
 import './App.css';
 
-import { Herbanner,Tabbar,Carda,Cardb,Cardc } from './components';
+import { Herobanner,Tabbar,Carda,Cardb,Cardc,Sgldiv } from './components';
 
 
 function App() {
   return (
     <>
-    <Herbanner/>
+    <Herobanner/>
     <Tabbar/>
 
     <section className='card_container'>
@@ -20,6 +20,9 @@ function App() {
     <div className='card_c'>
       <Cardc/>
     </div>
+    </section>
+    <section className='aftercard'>
+      <Sgldiv/>
     </section>
 
     
