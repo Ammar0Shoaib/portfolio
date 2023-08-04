@@ -2,23 +2,21 @@ import React from 'react'
 
 import './Cardc.css';
 
+import digimar from './cardc-img/digimar.PNG';
 
+import uxui from './cardc-img/uxui.PNG';
 
-// import digimar from './cardc-img/digimar.PNG';
+import webdpl from './cardc-img/webdpl.PNG';
 
-// import uxui from './cardc-img/uxui.PNG';
-
-// import webdpl from './cardc-img/webdpl.PNG';
-
-
-
+const mexp = 'My Expertise';
 
 
 
 
 
 
-const mexp = 'My';
+
+
 
 // const wdd = 'A Web Designer / Developer Located In Our Lovely Earth';
 
@@ -32,7 +30,41 @@ const Cardc = () => {
     return (
         <>
             <div className="Cardc-container">
+
+
                 <h3 className='wml'>{mexp}</h3>
+
+                <span className="Cardc-container_line"></span>
+
+
+                <div className="grid_container">
+
+
+                    <div className="image-column">
+                        <img className='img1' src={digimar} alt="UX-UI-design" />
+                        <img className='img2' src={uxui} alt="UX-UI-design" />
+                        <img className='img3' src={webdpl} alt="web-development" />
+                    </div>
+
+                    <div className="text-column">
+                        <div className="text1">
+                            <p><b>UX Design</b><br />exercitat Repellendus, corrupt.</p>
+                            <p></p>
+                        </div>
+                        <div className="text2">
+                            <p><b>Web Development</b><br />Lorem ipsum dolor sit consectetur.</p>
+                        </div>
+                        <div className="text3">
+                            <p><b>Digital Marketing</b><br />voluptate commodi illo voluptatib.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+                {/* <h3 className='wml'>{mexp}</h3>
                 {/* <span className="Cardc-container_line"></span> */}
 
 
@@ -44,7 +76,7 @@ const Cardc = () => {
                             <img src={digimar} alt="digital-marketing" />
                             <div className="text1">
                                 <div className="headingpluspara">
-                                    <h6>UX Design</h6>
+                                    <p>UX Design</p>
                                     <p>exercitat Repellendus, corrupt.</p>
                                 </div>
                             </div>
@@ -57,7 +89,7 @@ const Cardc = () => {
                             <img src={uxui} alt="UX-UI-design" />
                             <div className="text2">
                                 <div className="headingpluspara">
-                                    <h6>UX Design</h6>
+                                    <p>UX Design</p>
                                     <p>exercitat Repellendus, corrupt.</p>
                                 </div>
                             </div>
@@ -70,7 +102,7 @@ const Cardc = () => {
                             <img src={webdpl} alt="web-development" />
                             <div className="text3">
                                 <div className="headingpluspara">
-                                    <h6>UX Design</h6>
+                                    <p>UX Design</p>
                                     <p>exercitat Repellendus, corrupt.</p>
                                 </div>
                             </div>

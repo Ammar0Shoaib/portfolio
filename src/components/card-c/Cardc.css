@@ -19,15 +19,57 @@ body {
   margin-left: 1.3em;
 }
 
-.Cardc-container, 
+
 .Cardc-container_line {
   display: block;
   width: 70px;
   height: 3.5px;
   background-color: #F85C70;
   margin-left: 3.5em;
+} 
+
+.grid_container{
+  display: grid;
+  grid-template-columns: 10% 90%;
 }
 
+
+.image-column, .img1{
+  width: 2em;
+  height: 2em;
+  margin-top: 1.5em;
+  margin-left: 1.5em;
+}
+.image-column, .img2{
+  width: 2em;
+  height: 2em;
+  margin-top: 3em;
+  margin-left: 1.5em;
+}
+
+.image-column, .img3{
+  width: 2em;
+  height: 2em;
+  margin-top: 3em;
+  margin-left: 1.5em;
+}
+.text-column{
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.text-column,.text1 {
+  margin-top: 3em;
+  margin-left: 3em;
+}
+.text-column,.text2 {
+  margin-top: 1em;
+  margin-left: 3em
+}
+.text-column,.text3 {
+  margin-top: 1em;
+  margin-left: 3em;
+}
 
 /* 
 .cardc_sub-container,
