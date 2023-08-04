@@ -33,7 +33,7 @@ const Cardb = () => {
     return (
         <>
             <div className="Cardb-container">
-                <h3 className='wml'>{wml}</h3>
+                <p className='wml'>{wml}</p>
                 <span className="Cardb-container_line"></span>
 
                 <div className="sidebyside1">
