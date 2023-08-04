@@ -5,9 +5,9 @@ import './Carda.css';
 
 let wml = 'Who am I ?';
 
-let wdd = 'A Web Designer / Developer Located In Our Lovely Earth';
+let wdd = 'A Web Designer / Developer Located In the Earth';
 
-let para = 'Lorem ipsum dolor sit amet, consectetur otes yke manehijadipisicing elit.sit amet, Qui deserunt consequatur fugit repellendusillo voluptas?';
+let para = 'Lorem ipsum dolor sit amet, consectetur otes yke manehijadipisicing elit.sit amet, Qui consectetur otes yke manehijadipisicing deserunt consequatur fugit repellendusillo voluptas?';
 
 
 
@@ -15,9 +15,9 @@ const Carda = () => {
     return (
         <>
             <div className="carda-container">
-                <h3 className='wml'>{wml}</h3>
+                <p className='wml'>{wml}</p>
                 <span className="carda-container_line"></span>
-                <h5 className="intro">{wdd}</h5>
+                <p className="intro"><b>{wdd}</b></p>
                 <p className="brief">{para}</p>
                 <button className="btn"><i></i>Download My CV</button>
             </div>

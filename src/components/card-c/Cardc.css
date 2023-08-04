@@ -4,6 +4,11 @@ body {
   box-sizing: border-box;
 }
 
+:root {
+  --primary-font-color: #747779;
+  --font-size: 1.5em;
+}
+
 .Cardc-container {
   display: flex;
   max-width: 100%;
@@ -26,137 +31,69 @@ body {
   height: 3.5px;
   background-color: #F85C70;
   margin-left: 3.5em;
-} 
+}
 
-.grid_container{
+.grid_container {
   display: grid;
   grid-template-columns: 10% 90%;
 }
 
 
-.image-column, .img1{
+.image-column,
+.img1 {
   width: 2em;
   height: 2em;
   margin-top: 1.5em;
   margin-left: 1.5em;
 }
-.image-column, .img2{
+
+.image-column,
+.img2 {
   width: 2em;
   height: 2em;
   margin-top: 3em;
   margin-left: 1.5em;
 }
 
-.image-column, .img3{
+.image-column,
+.img3 {
   width: 2em;
   height: 2em;
   margin-top: 3em;
   margin-left: 1.5em;
 }
-.text-column{
+
+.text-column {
   margin-top: 1em;
   margin-left: 1em;
 }
 
-.text-column,.text1 {
+.text-column,
+.text1,
+p {
   margin-top: 3em;
   margin-left: 3em;
+  --font-size: 1.5em;
+
+  font-size: var(--primary-font-color);
 }
-.text-column,.text2 {
-  margin-top: 1em;
-  margin-left: 3em
-}
-.text-column,.text3 {
+
+.text-column,
+.text2,
+p {
   margin-top: 1em;
   margin-left: 3em;
-}
+  --font-size: 1.5em;
 
-/* 
-.cardc_sub-container,
-.imgplustext1 {
-
-  
-  max-width: 100%;
+  font-size: var(--primary-font-color);
 
 }
 
-.imgplustext1,
-img {
-  display: inline-block;
-  width: 2em;
-  height: 2em;
+.text-column,
+.text3,
+p {
+  margin-top: 1em;
+  margin-left: 3em;
+  --font-size: 1.5em;
+  font-size: var(--primary-font-color);
 }
-
-.imgplustext1,
-.text1 {
-
-  display: inline-block;
-}
-
-.cardc_sub-container,
-.imgplustext2 {
-
-  
-  
-  max-width: 100%;
-
-}
-
-.imgplustext2,
-img {
-  display: inline-block;
-  width: 2em;
-  height: 2em;
-}
-
-.imgplustext2,
-.text2 {
-
-  display: inline-block;
-}
-
-
-
-.cardc_sub-container,
-.imgplustext3 {
-
-
-  flex-wrap: wrap;
-  max-width: 100%;
-
-}
-
-.imgplustext3,
-img {
-  display: inline-block;
-  width: 2em;
-  height: 2em;
-}
-
-.imgplustext3,
-.text3 {
-
-  display: inline-block;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

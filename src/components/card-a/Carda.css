@@ -4,6 +4,12 @@ body {
   box-sizing: border-box;
 }
 
+:root {
+  --primary-font-color: #747779;
+  --font-size: 1.5em;
+  
+}
+
 .carda-container {
   display: flex;
   max-width: 100%;
@@ -14,9 +20,10 @@ body {
 
 .carda-container .wml {
   font-size: 2.5em;
-  font-weight: 300;
-  margin-top: 2.3em;
-  margin-left: 1.3em;
+  color: black;
+    font-weight: 300;
+    margin-top: 2.3em;
+    margin-left: 1.3em;
 }
 
 .carda-container .carda-container_line {
@@ -29,18 +36,18 @@ body {
 
 .carda-container .intro {
   width: 80%;
-  font-size: 1.2em;
-  color: #747779;
-  margin-top: 2em;
-  margin-left: 3em;
+  font-size: var(--font-size);
+  color: var(--primary-font-color);
+  margin-top: 2.5em;
+  margin-left: 2.2em;
 
 }
 
 .carda-container .brief {
   width: 73%;
   font-size: 1.1em;
-  color: #747779;
-  margin-top: 2em;
+  color: var(--primary-font-color);
+  margin-top: 1em;
   margin-left: 3em;
   text-align: justify;
 }
@@ -68,4 +75,4 @@ body {
   background-color: #f85c70;
   border-color: #f85c70;
   cursor: pointer;
-}
+} 
