@@ -5,10 +5,18 @@ body{
     box-sizing: border-box;
 }
 
+
+.sgldiv_main-container{
+
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 3em;
+}
+
 .aftrcard{
     display: flex;
-    margin-left: 8em;
-    margin-top: 2em;
+    margin: 2.5em  0em 1em 0em;
+    align-items: center;
 }
 
 
@@ -24,5 +32,25 @@ body{
     
     color:#F85C70;
     
+
+}
+
+.sgldiv_main-container-span-sub-must{
+
+    display: block;
+    height: 1px;
+    width: 800px;
+    margin-top: 8em;
+    background-color:#F85C70 ;
+
+}
+
+.aftercard-section-span-must{
+
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: var(--section-ending-span-line-color);
+
 
 }

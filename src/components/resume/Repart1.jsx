@@ -4,6 +4,9 @@ import './Repart1.css'
 
 const Repart1 = () => {
     return (
+
+
+
         <div className='repart1_main-container'>
 
             <div className="repart1_main-sub-container">
@@ -23,14 +26,6 @@ const Repart1 = () => {
 
 
 
-
-
-
-
-
-
-
-
             <section className='repart1_main-container-section'>
 
                 <div className="duration">
@@ -43,7 +38,7 @@ const Repart1 = () => {
 
 
                 <article className="summery">
-                    <p className='summery-para'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</p>
+                    <p className='summery-para'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione gte bego tiu mukatio repell endus. aliquid fouramus de putio repudiandae saepe!.</p>
                 </article>
 
 
@@ -52,12 +47,6 @@ const Repart1 = () => {
                 </div>
 
             </section>
-
-
-
-
-
-
 
 
 
@@ -74,7 +63,7 @@ const Repart1 = () => {
 
 
                 <article className="summery">
-                    <p className='summery-para'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</p>
+                    <p className='summery-para'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione gte bego tiu mukatio repell endus. aliquid fouramus de putio repudiandae saepe!.</p>
                 </article>
 
 
@@ -83,10 +72,6 @@ const Repart1 = () => {
                 </div>
 
             </section>
-
-
-
-
 
 
 
@@ -103,7 +88,7 @@ const Repart1 = () => {
 
 
                 <article className="summery">
-                    <p className='summery-para'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</p>
+                    <p className='summery-para'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione gte bego tiu mukatio repell endus. aliquid fouramus de putio repudiandae saepe!.</p>
                 </article>
 
 
@@ -112,7 +97,7 @@ const Repart1 = () => {
                 </div>
 
             </section>
-            
+
 
         </div>
     )

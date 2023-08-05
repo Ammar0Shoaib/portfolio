@@ -30,3 +30,22 @@ a{
   flex: 1 0 33.33%;
 
 }
+
+.resume{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+.resumepart1{
+  display: flex;
+  flex: 1 0 25%;
+
+}
+.resumepart2{
+  display: flex;
+  flex: 1 0 25%;
+}
+.resumepart3{
+  display: flex;
+  flex: 1 0 25%;
+}

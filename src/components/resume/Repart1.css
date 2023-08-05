@@ -39,7 +39,7 @@ body {
     width: 25%;
     flex-wrap: wrap;
     position: relative;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); */
 
 }
 
@@ -91,8 +91,9 @@ body {
 }
 
 .summery-para{
+    width: 100%;
     font-size: 0.8em;
-    --webkit-text-justify: auto;
+    text-align: justify;
     margin-left: 5em;
     color: var(--para-font-color);
 }
@@ -100,7 +101,7 @@ body {
 .after-section-span-must{
 
     display: block;
-    width: 200px;
+    width: 150px;
     height: 1px;
     margin-top: 1em;
     margin-left: 6em;
