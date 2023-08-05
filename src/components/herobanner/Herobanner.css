@@ -6,8 +6,12 @@ body {
 
 .container {
 
-  background-image: url("./banner-images/herobanner.jpg");
+  /* background-image: url("./banner-images/herobanner.jpg"); */
 
+  /* background: linear-gradient(90deg, rgba(155, 164, 167, 0.38) 0%, rgba(127, 209, 247, 1) 50%, rgba(34, 209, 240, 0.48) 100%); */
+
+  background: radial-gradient(circle at 7% 19%, rgba(155, 164, 167, 0.38) 0%, rgba(247, 147, 160, 1) 50%, rgba(248, 92, 112, 1) 100%);
+  
   position: relative;
 
   background-size: cover;
@@ -120,11 +124,12 @@ body {
 }
 
 .container .introduction .btncontainer .button-with-image {
-  background-color: #099bca;
+  background-color: #E6BCC2;
   color: #fff;
-  border: none;
+  border: 1PX SOLID;
   padding: 1em 1em;
   border-radius: 0.5em;
+  border-color: rgb(138, 136, 136);
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -141,5 +146,6 @@ body {
 }
 
 .container .introduction .btncontainer .button-with-image:hover {
-  background-color: #f85c70;
+  background-color: #F85C70;
+  border: none;
 }
