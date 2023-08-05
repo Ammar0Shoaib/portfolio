@@ -5,7 +5,7 @@ import './Carda.css';
 
 let wml = 'Who am I ?';
 
-let wdd = 'A Web Designer / Developer Located In the Earth';
+let wdd = 'A Web Designer / Developer Located near You !';
 
 let para = 'Lorem ipsum dolor sit amet, consectetur otes yke manehijadipisicing elit.sit amet, Qui consectetur otes yke manehijadipisicing deserunt consequatur fugit repellendusillo voluptas?';
 

@@ -9,6 +9,8 @@ export {default as Repart1} from './resume/Repart1';
 export {default as Repart2} from './resume/Repart2';
 export {default as Repart3} from './resume/Repart3';
 
+export {default as Myservices} from './afteresume/Myservices';
+
 
 
 

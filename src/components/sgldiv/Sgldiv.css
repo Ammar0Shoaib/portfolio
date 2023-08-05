@@ -9,7 +9,7 @@ body{
 .sgldiv_main-container{
 
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 2fr 4fr;
     gap: 3em;
 }
 
@@ -41,6 +41,7 @@ body{
     height: 1px;
     width: 800px;
     margin-top: 8em;
+    margin-right: 20em;
     background-color:#F85C70 ;
 
 }

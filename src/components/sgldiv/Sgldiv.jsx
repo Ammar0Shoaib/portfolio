@@ -12,7 +12,7 @@ const Sgldiv = () => {
       <div className="sgldiv_main-container-text">
 
       <div className='aftrcard'>
-        <p className='para1'> <span className='my'>My</span>Resume</p>
+        <p className='para1'> <span className='my'>My</span> Resume</p>
       </div>
 
 
@@ -29,9 +29,9 @@ const Sgldiv = () => {
 
     </div>
 
-      <div className="aftercard-section-span">
+      {/* <div className="aftercard-section-span">
         <span className='aftercard-section-span-must'></span>
-      </div>
+      </div> */}
     </>
 
      
