@@ -50,12 +50,12 @@ body {
     
 }
 
-.repart2_main-sub-container-para,
 .repart2_main-container-mainheading {
     position: relative;
-    font-size: var(--main-heading-font-size);
-    font-weight: 400;
+    font-size: 1.8em;
+    font-weight: 300;
     color: black;
+    margin-left: 2.3em;
 }
 
 

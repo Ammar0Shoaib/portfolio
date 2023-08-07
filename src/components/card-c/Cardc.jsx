@@ -48,14 +48,15 @@ const Cardc = () => {
 
                     <div className="cardc-text-column">
                         <div className="cardc-text-column-text1">
-                            <p className='cardc-text-column-text1-para'><b>UX Design</b><br />exercitat Repellendus, corrupt.</p>
+                            <p className='cardc-text-column-text1-para'><span className='heading-weight'>UX Design</span><br />exercitat Repellendus, corrupt.</p>
                         </div>
                         <div className="cardc-text-column-text2">
-                            <p className='cardc-text-column-text2-para'><b>Web Development</b><br />Lorem ipsum dolor sit consectetur.</p>
+                        <p className='cardc-text-column-text2-para'><span className='heading-weight'>UX Design</span><br />exercitat Repellendus, corrupt.</p>
                         </div>
                         <div className="cardc-text-column-text3">
-                            <p className='cardc-text-column-text3-para'><b>Digital Marketing</b><br />voluptate commodi illo voluptatib.</p>
+                        <p className='cardc-text-column-text3-para'><span className='heading-weight'>UX Design</span><br />exercitat Repellendus, corrupt.</p>
                         </div>
+                        
                     </div>
 
 

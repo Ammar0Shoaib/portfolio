@@ -8,15 +8,15 @@ body {
 
     /* main heading */
     --main-heading-font-size: 1.2em;
-    
+
     /* heading  */
     --heading-font-size: 1.2em;
     --heading-font-color: #F85C70;
-    
+
     /* para styling  */
     --para-font-color: #747779;
     --para-font-size: 0.2em;
-    
+
     /* Span styling */
     --main-heading-span-margin-left: 4.2em;
     --span-back-color: #F85C70;
@@ -39,65 +39,57 @@ body {
     width: 100%;
     flex-wrap: wrap;
     position: relative;
-    /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); */
 
 }
 
-.repart3_main-container,.repart3_main-sub-container{
+.repart3_main-sub-container {
     display: flex;
     flex-direction: column;
-    
-    
-    
+
+
+
 }
 
-.repart3_main-sub-container-para,
 .repart3_main-container-mainheading {
     position: relative;
-    font-size: var(--main-heading-font-size);
-    font-weight: 400;
+    font-size: 1.8em;
+    font-weight: 300;
     color: black;
+    margin-left: 6.3em;
 }
 
 
 
-.repart3_main-container-span, .repart3_main-container-mainheading-line-1 {
+.repart3_main-container-span-element {
     display: block;
-    width: 40px;
-    height: 1.5px;
-    background-color: var(--span-back-color);
-    margin-left: var(--main-heading-span-margin-left);
+    width: 450px;
+    height: 1px;
+    background-color: #F85C70;
 }
 
 
 
-.skill_set-container{
+.skill_set-container {
     display: flex;
     flex-direction: column;
 }
 
 
-.status_container-heading-statusbar{
+.status_container-heading-statusbar {
     display: grid;
     grid-template-columns: 1fr 2fr;
     margin-top: 2.6em;
 }
 
-.status_container-heading{
+.status_container-heading {
 
     display: flex;
 }
 
-.status_container-statusbar{
+.status_container-statusbar {
     display: flex;
 }
 
 .statusBar-heaading {
     color: var(--heading-font-color);
 }
-
-
-
-
-
-

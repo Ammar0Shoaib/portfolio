@@ -38,7 +38,7 @@ const Repart3 = () => {
 
 
                 <div className="repart3_main-container-span">
-                    <span className='repart3_main-container-span-line-1'></span>
+                    <span className='repart3_main-container-span-element'></span>
                 </div>
 
 

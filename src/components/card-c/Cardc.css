@@ -65,13 +65,22 @@ body {
 
 .cardc-text-column-text1-para{
   margin-top: 2.7em;
+  font-weight: 500;
 }
 
 .cardc-text-column-text2-para{
   margin-top: 3.2em;
+  font-weight: 500;
+
 }
 
 .cardc-text-column-text3-para{
   margin-top: 3.7em;
+  font-weight: 500;
+
+}
+
+.heading-weight{
+  font-weight: 700;
 }
 

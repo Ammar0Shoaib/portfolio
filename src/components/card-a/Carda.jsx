@@ -17,7 +17,7 @@ const Carda = () => {
             <div className="carda-container">
                 <p className='carda-container-wml'>{wml}</p>
                 <span className="carda-container_line"></span>
-                <p className="carda-container-intro"><b>{wdd}</b></p>
+                <p className="carda-container-intro">{wdd}</p>
                 <p className="carda-container-brief">{para}</p>
                 <button className="carda-container-btn"><i></i>Download My CV</button>
             </div>

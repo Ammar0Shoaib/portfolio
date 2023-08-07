@@ -41,6 +41,7 @@ body {
   margin-top: 1.2em;
   margin-left: 2.2em;
   line-height: 2em;
+  font-weight: 500;
 
 }
 
@@ -70,7 +71,7 @@ body {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-.carda-container .btn:hover {
+.carda-container-btn:hover {
   color: #fff;
   background-color: #f85c70;
   border-color: #f85c70;

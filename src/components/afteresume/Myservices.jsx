@@ -21,8 +21,8 @@ const Myservices = () => {
 
                 <div className="myservices_main-sub-container-text">
 
-                    <div className='myservices_main-sub-container-text-must'>
-                        <p className='myservices_main-sub-container-text-must-para'> <span className='services'>My</span> Services</p>
+                    <div className='myservices_main-sub-sub-container-text'>
+                        <p className='myservices_main-sub-sub-subcontainer-text-para-element'> <span className='myservices_main-sub-sub-subcontainer-text-para-span-element'>My</span> Services</p>
                     </div>
                 </div>
 

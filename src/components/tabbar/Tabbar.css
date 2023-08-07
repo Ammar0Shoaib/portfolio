@@ -24,11 +24,11 @@ body {
     margin: 0;
     padding: 0.7em;
     cursor: pointer;
-    color: #333;
+    color: #8A7E79;
     font-size: 1.2em;
   }
   .tab_bar-one-h3:hover {
-    background-color: #dadada;
+    background-color: #fcdbdb;
   }
   .tab_bar-two {
     display: flex;
@@ -42,9 +42,9 @@ body {
     margin: 0;
     padding: 0.7em;
     cursor: pointer;
-    color: #333;
+    color: #8A7E79;
     font-size: 1.2em;
   }
   .tab_bar-two-h3:hover {
-    background-color: #dadada;
+    background-color: #fcdbdb;
   }

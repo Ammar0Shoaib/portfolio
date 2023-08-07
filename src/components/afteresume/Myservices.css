@@ -9,23 +9,19 @@ body {
 
     display: grid;
     grid-template-columns: 2fr 4fr;
-    gap: 3em;
+    margin-top: 5em;
+    margin-bottom: 2em;
 }
 
 
-.myservices_main-sub-container-text-must {
-    display: flex;
-    margin: 2.5em 0em 1em 0em;
-    align-items: center;
-}
-
-
-.myservices_main-sub-container-text-must-para {
-    font-size: 2.4em;
+.myservices_main-sub-sub-subcontainer-text-para-element{
+    font-size: 2em;
     font-weight: 400;
+    color: #8A7E79;
+    margin-left: 3.3em;
 }
 
-.services {
+.myservices_main-sub-sub-subcontainer-text-para-span-element{
     color: #F85C70;
 }
 
@@ -36,7 +32,7 @@ body {
     display: block;
     height: 1px;
     width: 800px;
-    margin-top: 6.9em;
+    margin-top: 3.4em;
     margin-right: 18em;
     background-color: #F85C70;
 
@@ -91,6 +87,7 @@ body {
     font-weight: 700;
     color: #747779;
     margin-left: 1.1em;
+    font-weight: 500;
 }
 
 
@@ -98,6 +95,8 @@ body {
 
     width: 80%;
     margin-left: 2.2em;
+    font-weight: 400;
+    color: #747779;
 }
 
 .article-img {
