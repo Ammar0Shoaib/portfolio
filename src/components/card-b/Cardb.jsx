@@ -33,47 +33,47 @@ const Cardb = () => {
     return (
         <>
             <div className="Cardb-container">
-                <p className='wml'>{wml}</p>
+                <p className='Cardb-container-wml'>{wml}</p>
                 <span className="Cardb-container_line"></span>
 
                 <div className="sidebyside1">
-                    <h4>{dob}</h4>
-                    <p>{dobvalue}</p>
+                    <h4 className='sbs-1-h4'>{dob}</h4><p className='sbs-1-p'>{dobvalue}</p>
                 </div>
                 <div className="sidebyside2">
-                    <h4>{email}</h4><p>{emailvalue}</p>
+                    <h4 className='sbs-2-h4'>{email}</h4><p className='sbs-2-p'>{emailvalue}</p>
                 </div>
                 <div className="sidebyside3">
-                    <h4>{phn}</h4><p>{phnvalue}</p>
+                    <h4 className='sbs-3-h4'>{phn}</h4><p className='sbs-3-p'>{phnvalue}</p>
                 </div>
                 <div className="sidebyside4">
-                    <h4>{skype}</h4><p>{skpevalue}</p>
+                    <h4 className='sbs-4-h4'>{skype}</h4><p className='sbs-4-p'>{skpevalue}</p>
                 </div>
                 <div className="sidebyside5">
-                    <h4>{address}</h4><p>{addrvalue}</p>
+                    <h4 className='sbs-5-h4'>{address}</h4><p className='sbs-5-p'>{addrvalue}</p>
                 </div>
+
 
                 <div className="social-icons">
 
                     <div className="insta">
-                        <img src={insta} alt="insta" />
+                        <img className='card-b-social-icons-img-insta' src={insta} alt="insta" />
                     </div>
                     <div className="google">
-                    <img src={google} alt="google" />
+                        <img className='card-b-social-icons-img-google' src={google} alt="google" />
                     </div>
                     <div className="facebook">
-                    <img src={facebook} alt="facebook" />
+                        <img className='card-b-social-icons-img-facebook' src={facebook} alt="facebook" />
                     </div>
                     <div className="twitter">
-                    <img src={twitter} alt="twitter" />
+                        <img className='card-b-social-icons-img-twitter' src={twitter} alt="twitter" />
                     </div>
                     <div className="github">
-                    <img src={git} alt="github" />
+                        <img className='card-b-social-icons-img-github' src={git} alt="github" />
                     </div>
 
                 </div>
-               
-          
+
+
             </div>
         </>
     )

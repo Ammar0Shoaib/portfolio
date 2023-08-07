@@ -48,13 +48,13 @@ const Herobanner = () => {
 
                 <section className='introduction'>
 
-                    <p>Hello, I am </p>
-                    <h2>{strname}</h2>
-                    <h3>{strexpt1} &nbsp;  &#10072; &nbsp; {strexpt2}</h3>
+                    <p className='intro-hero-para'>Hello, I am </p>
+                    <h2 className='intro-hero-h2'>{strname}</h2>
+                    <h3 className='intro-hero-h3'>{strexpt1} &nbsp;  &#10072; &nbsp; {strexpt2}</h3>
 
                     <div className="btncontainer">
                         <button className="button-with-image">
-                            <img src={imageUrl} alt="Icon" />
+                            <img className='btncontainer-img' src={imageUrl} alt="Icon" />
                             <span className="button-text">Print Resume</span>
                         </button>
                     </div>

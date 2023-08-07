@@ -6,8 +6,8 @@ body {
 
 :root {
   --primary-font-color: #747779;
-  --font-size: 1.5em;
-  
+  --font-size: 1em;
+
 }
 
 .carda-container {
@@ -18,12 +18,12 @@ body {
   box-shadow: 1px 1px 0px 0 #EEEEEE;
 }
 
-.carda-container .wml {
-  font-size: 2.5em;
+.carda-container-wml {
+  font-size: 2em;
   color: black;
-    font-weight: 300;
-    margin-top: 2.3em;
-    margin-left: 1.3em;
+  font-weight: 300;
+  margin-top: 2.3em;
+  margin-left: 2.2em;
 }
 
 .carda-container .carda-container_line {
@@ -31,20 +31,21 @@ body {
   width: 70px;
   height: 3.5px;
   background-color: #F85C70;
-  margin-left: 3.5em;
+  margin-left: 4.4em;
 }
 
-.carda-container .intro {
+.carda-container-intro {
   width: 80%;
-  font-size: var(--font-size);
+  font-size: 1.5em;
   color: var(--primary-font-color);
-  margin-top: 2.5em;
+  margin-top: 1.2em;
   margin-left: 2.2em;
+  line-height: 2em;
 
 }
 
-.carda-container .brief {
-  width: 73%;
+.carda-container-brief {
+  width: 66%;
   font-size: 1.1em;
   color: var(--primary-font-color);
   margin-top: 1em;
@@ -52,11 +53,10 @@ body {
   text-align: justify;
 }
 
-.carda-container .btn {
+.carda-container-btn {
   width: 35%;
-  margin-top: 1em;
+  margin-top: 2.5em;
   margin-left: 7em;
-  display: inline-block;
   font-size: 1.1rem;
   font-weight: 400;
   color: #212529;
@@ -75,4 +75,4 @@ body {
   background-color: #f85c70;
   border-color: #f85c70;
   cursor: pointer;
-} 
+}

@@ -12,14 +12,14 @@ body {
     flex-wrap: wrap;
     box-shadow: 3px 3px 0px 0 #EEEEEE;
   }
-  .tab-bar .tab_bar-one {
+  .tab_bar-one {
     display: flex;
     flex: 1 0 0;
     justify-content: center;
     align-items: center;
     gap: 2em;
   }
-  .tab-bar .tab_bar-one h3 {
+  .tab_bar-one-h3  {
     display: inline-block;
     margin: 0;
     padding: 0.7em;
@@ -27,17 +27,17 @@ body {
     color: #333;
     font-size: 1.2em;
   }
-  .tab-bar .tab_bar-one h3:hover {
+  .tab_bar-one-h3:hover {
     background-color: #dadada;
   }
-  .tab-bar .tab_bar-two {
+  .tab_bar-two {
     display: flex;
     flex: 1 0 0;
     justify-content: center;
     align-items: center;
     gap: 2em;
   }
-  .tab-bar .tab_bar-two h3 {
+  .tab_bar-two-h3 {
     display: inline-block;
     margin: 0;
     padding: 0.7em;
@@ -45,6 +45,6 @@ body {
     color: #333;
     font-size: 1.2em;
   }
-  .tab-bar .tab_bar-two h3:hover {
+  .tab_bar-two-h3:hover {
     background-color: #dadada;
   }

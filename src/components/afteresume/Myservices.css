@@ -1,12 +1,11 @@
-
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 
-.myservices_main-sub-container{
+.myservices_main-sub-container {
 
     display: grid;
     grid-template-columns: 2fr 4fr;
@@ -14,29 +13,25 @@ body{
 }
 
 
-.myservices_main-sub-container-text-must{
+.myservices_main-sub-container-text-must {
     display: flex;
-    margin: 2.5em  0em 1em 0em;
+    margin: 2.5em 0em 1em 0em;
     align-items: center;
 }
 
 
-.myservices_main-sub-container-text-must-para{
+.myservices_main-sub-container-text-must-para {
     font-size: 2.4em;
     font-weight: 400;
 }
 
-.services{
+.services {
     color: #F85C70;
 }
 
 
 
-
-
-
-
-.myservices_main-sub-container-span-div-must{
+.myservices_main-sub-container-span-div-must {
 
     display: block;
     height: 1px;
@@ -49,7 +44,7 @@ body{
 
 
 
-.myservices_main-container-last-half-main{
+.myservices_main-container-last-half-main {
 
     display: flex;
     flex-wrap: wrap;
@@ -57,26 +52,26 @@ body{
     justify-content: center;
 }
 
-.myservices_main-container-last-half-main-sub1{
+.myservices_main-container-last-half-main-sub1 {
     display: flex;
     flex-wrap: wrap;
-    gap: 2em ;
+    gap: 2em;
     margin-top: 2em;
     align-items: center;
     justify-content: center;
 }
 
-.myservices_main-container-last-half-main-sub2{
+.myservices_main-container-last-half-main-sub2 {
     display: flex;
     flex-wrap: wrap;
-    gap: 2em ;
+    gap: 2em;
     margin-top: 2em;
     align-items: center;
     justify-content: center;
 }
 
 
-.myservices_main-container-last-half-main-sub-article{
+.myservices_main-container-last-half-main-sub-article {
     display: flex;
     flex-direction: column;
     width: 20%;
@@ -85,29 +80,33 @@ body{
 }
 
 
-.heading-img{
+.heading-img {
 
     width: 70%;
     margin-left: 0.75em;
     margin-top: 0.75em;
 }
 
-.heading{
+.heading {
     font-weight: 700;
+    color: #747779;
+    margin-left: 1.1em;
 }
 
 
-.description{
-    
-    width: 90%;
+.para {
+
+    width: 80%;
+    margin-left: 2.2em;
 }
-.article-img{
+
+.article-img {
 
     width: 2.5em;
     height: 2.5em;
 }
 
-.description{
+.description {
     text-align: justify;
     font-size: 0.75em;
 }

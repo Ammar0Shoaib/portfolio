@@ -17,83 +17,61 @@ body {
   box-shadow: 1px 1px 0px 0 #EEEEEE;
 }
 
-.Cardc-container .wml {
-  font-size: 2.5em;
+.Cardc-container-wml {
+  font-size: 2em;
   font-weight: 300;
   margin-top: 2.3em;
-  margin-left: 1.3em;
+  margin-left: 2.2em;
 }
-
 
 .Cardc-container_line {
   display: block;
   width: 70px;
   height: 3.5px;
   background-color: #F85C70;
-  margin-left: 3.5em;
+  margin-left: 4.5em;
 }
 
-.grid_container {
+.cardc-grid_container {
   display: grid;
   grid-template-columns: 10% 90%;
 }
 
-
-.image-column,
-.img1 {
+.cardc-image-column-img1,
+.cardc-image-column-img2,
+.cardc-image-column-img3 {
   width: 2em;
   height: 2em;
-  margin-top: 2.5em;
+  margin-top: 4em;
   margin-left: 1.5em;
 }
 
-.image-column,
-.img2 {
-  width: 2em;
-  height: 2em;
-  margin-top: 3.2em;
-  margin-left: 1.5em;
-}
-
-.image-column,
-.img3 {
-  width: 2em;
-  height: 2em;
-  margin-top: 3.2em;
-  margin-left: 1.5em;
-}
-
-.text-column {
+.cardc-text-column {
   margin-top: 1em;
   margin-left: 1em;
 }
 
-.text-column,
-.text1,
-p {
-  margin-top: 3em;
+.cardc-text-column-text1-para,
+.cardc-text-column-text2-para,
+.cardc-text-column-text3-para
+ {
   margin-left: 3em;
   --font-size: 1.5em;
+  color: var(--primary-font-color);
 
   font-size: var(--primary-font-color);
 }
 
-.text-column,
-.text2,
-p {
-  margin-top: 1em;
-  margin-left: 3em;
-  --font-size: 1.5em;
 
-  font-size: var(--primary-font-color);
-
+.cardc-text-column-text1-para{
+  margin-top: 2.7em;
 }
 
-.text-column,
-.text3,
-p {
-  margin-top: 1em;
-  margin-left: 3em;
-  --font-size: 1.5em;
-  font-size: var(--primary-font-color);
+.cardc-text-column-text2-para{
+  margin-top: 3.2em;
 }
+
+.cardc-text-column-text3-para{
+  margin-top: 3.7em;
+}
+

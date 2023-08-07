@@ -32,29 +32,29 @@ const Cardc = () => {
             <div className="Cardc-container">
 
 
-                <h3 className='wml'>{mexp}</h3>
+                <h3 className='Cardc-container-wml'>{mexp}</h3>
 
                 <span className="Cardc-container_line"></span>
 
 
-                <div className="grid_container">
+                <div className="cardc-grid_container">
 
 
-                    <div className="image-column">
-                        <img className='img1' src={digimar} alt="UX-UI-design" />
-                        <img className='img2' src={uxui} alt="UX-UI-design" />
-                        <img className='img3' src={webdpl} alt="web-development" />
+                    <div className="cardc-image-column">
+                        <img className='cardc-image-column-img1' src={digimar} alt="UX-UI-design" />
+                        <img className='cardc-image-column-img2' src={uxui} alt="UX-UI-design" />
+                        <img className='cardc-image-column-img3' src={webdpl} alt="web-development" />
                     </div>
 
-                    <div className="text-column">
-                        <div className="text1">
-                            <p><b>UX Design</b><br />exercitat Repellendus, corrupt.</p>
+                    <div className="cardc-text-column">
+                        <div className="cardc-text-column-text1">
+                            <p className='cardc-text-column-text1-para'><b>UX Design</b><br />exercitat Repellendus, corrupt.</p>
                         </div>
-                        <div className="text2">
-                            <p><b>Web Development</b><br />Lorem ipsum dolor sit consectetur.</p>
+                        <div className="cardc-text-column-text2">
+                            <p className='cardc-text-column-text2-para'><b>Web Development</b><br />Lorem ipsum dolor sit consectetur.</p>
                         </div>
-                        <div className="text3">
-                            <p><b>Digital Marketing</b><br />voluptate commodi illo voluptatib.</p>
+                        <div className="cardc-text-column-text3">
+                            <p className='cardc-text-column-text3-para'><b>Digital Marketing</b><br />voluptate commodi illo voluptatib.</p>
                         </div>
                     </div>
 

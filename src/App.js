@@ -1,7 +1,7 @@
 
 import './App.css';
 
-import { Herobanner,Tabbar,Carda,Cardb,Cardc,Sgldiv,Repart1,Repart2,Repart3,Myservices } from './components';
+import { Herobanner,Tabbar,Carda,Cardb,Cardc,Sgldiv,Repart1,Repart2,Repart3,Myservices,Free } from './components';
 
 
 function App() {
@@ -32,6 +32,10 @@ function App() {
     <section className='myservices'>
     <Myservices/>
     </section>
+    <section className='freelance'>
+    <Free/>
+    </section>
+
 
 
     

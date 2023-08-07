@@ -98,19 +98,19 @@ body {
   cursor: pointer;
 }
 
-.container .introduction p {
+.intro-hero-para {
   color: white;
   font-size: 2.2em;
   margin-left: 5em;
 }
 
-.container .introduction h2 {
+.intro-hero-h2 {
   color: white;
   font-size: 3em;
   margin-left: 3.5em;
 }
 
-.container .introduction h3 {
+.intro-hero-h3 {
   color: white;
   font-size: 1.5em;
   margin-left: 7em;
@@ -123,7 +123,7 @@ body {
   padding-left: 10em;
 }
 
-.container .introduction .btncontainer .button-with-image {
+.button-with-image {
   background-color: #E6BCC2;
   color: #fff;
   border: 1PX SOLID;
@@ -135,17 +135,17 @@ body {
   align-items: center;
 }
 
-.container .introduction .btncontainer .button-with-image img {
+.btncontainer-img  {
   width: 2em;
   height: 2em;
   margin-right: 1.1em;
 }
 
-.container .introduction .btncontainer .button-with-image .button-text {
+.button-text {
   font-size: 1.5em;
 }
 
-.container .introduction .btncontainer .button-with-image:hover {
+.button-with-image:hover {
   background-color: #F85C70;
   border: none;
 }
